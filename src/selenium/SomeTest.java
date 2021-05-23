@@ -12,7 +12,7 @@ public class SomeTest {
 	
 	static WebDriver driver;
 	
-	@BeforeTest
+	@BeforeTest 
 	public void initiateBrowser() {
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32_5\\chromedriver.exe");
 		driver = new ChromeDriver();		
