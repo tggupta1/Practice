@@ -16,7 +16,7 @@ public class InitiateDriver {
 
 	public WebDriver initiateChromeDriver2(){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Tarun\\Downloads\\chromedriver.exe");
-		driver=new ChromeDriver();
+		driver=new ChromeDriver(); 
 		driver.get("https://fb.com");
 		return driver;
 	}
